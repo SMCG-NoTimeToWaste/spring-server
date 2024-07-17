@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Properties;
 
-@Profile({"dev", "prod"})
+@Profile({"dev", "test"})
 @Component
 @ConfigurationProperties(prefix = "ssh")
 @Setter
